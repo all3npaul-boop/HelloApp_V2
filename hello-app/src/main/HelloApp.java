@@ -11,17 +11,18 @@
 *
 * @author Allen
 * @version 1.0
+*@since UC1
 */
 /**
 * Key Java Concepts Used:
-*1. Class Declaration Defines a blueprint for objects
-* 2. Main Method Entry point for program execution
-*3. Static Keyword Method belongs to the class, not instances
-* 4. String Argument Array Command-line arguments parameter
-* 5. System.out.println() Standard output stream for printing
+*1.Command-Line Arguments: Accessing user input via args[] parameter
+*2.String Concatenation: Combining strings using the + operator
+*3.System.out.println(): Output to console
+*4.Array Indexing: Accessing the first arugumet with args[0]
 */
 public class HelloApp {
 public static void main(String[] args) {
-    System.out.println(x: "Hello, World!");
+    String name = args[0];
+    System.out.println("Hello,"+name+"!");
    }
 }
